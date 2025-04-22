@@ -54,10 +54,10 @@
                 aspectratio: "16:9",
                 autostart: true,
                 mute: false,
-                type: "hls",
-                preload: "auto",
+                type: "hls", // Ensures HLS compatibility
+                preload: "auto", // Preload stream for faster playback
                 cast: {
-                    appid: "CC1AD845"
+                    appid: "CC1AD845" // Chromecast App ID (optional)
                 }
             });
 
